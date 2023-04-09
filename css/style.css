@@ -1,0 +1,91 @@
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: rgb(214, 222, 224);
+}
+#map {
+  /* flex: 1; */
+  height: 100%;
+  background-color: var(--color-light--1);
+}
+
+.location {
+  position: absolute;
+  top: 20rem;
+  left: 19rem;
+  /* background-color: #8b8585; */
+  color: black;
+  padding: 2rem 7.5rem;
+  border-radius: 1.3rem;
+  background-color: white;
+  display: flex;
+  /* width: 91.35em; */
+
+  gap: 6.5rem;
+  /* margin-top: -3.5rem; */
+  z-index: 99999;
+  letter-spacing: 0.1rem;
+}
+.ip-location {
+  /* padding: 2.5rem; */
+  color: black;
+  /* background-color: #555; */
+}
+.sec {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #666;
+  /* margin-bottom: 1rem; */
+  line-height: 2.5rem;
+}
+.content {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.head {
+  position: relative;
+}
+.search {
+  position: absolute;
+  padding: 0.8rem 10.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  top: 5.5rem;
+  left: 34.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.search-tab {
+  /* position: absolute; */
+  padding: 1.2rem 10.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border: none;
+}
+.image-head {
+  width: 100%;
+}
+.btn {
+  /* position: absolute; */
+  padding: 1.2rem;
+  border: none;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: white;
+  background-color: black;
+}
+.header-top {
+  /* position: absolute; */
+  /* display: inline-block; */
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  color: white;
+  align-self: center;
+  font-size: 2.5rem;
+}

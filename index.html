@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | IP Address Tracker</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="head">
+        <div class="search">
+          <p class="header-top">IP Address Tracker</p>
+          <div>
+            <input
+              class="search-tab"
+              type="search"
+              placeholder="Search IP or domain"
+            />
+            <button class="btn" type="submit">&gt;</button>
+          </div>
+        </div>
+        <img
+          class="image-head"
+          src="images/pattern-bg-desktop.png"
+          alt="header"
+        />
+      </header>
+
+      <!-- <div class="location"> -->
+      <!-- <div class="ip-location">
+          <p class="sec">IP ADDRESS</p>
+          <span class="content">192.043.956.99</span>
+        </div>
+        <div>
+          <p class="sec">LOCATION</p>
+          <span class="content">Brooklyn, NY <br />10001</span>
+        </div>
+        <div>
+          <p class="sec">TIME-ZONE</p>
+          <span class="content">UTC-5:00</span>
+        </div>
+        <div>
+          <p class="sec">ISP</p>
+          <span class="content">SpaceX <br />Starlink</span>
+        </div> -->
+      <!-- </div> -->
+      <div id="map"></div>
+
+      <!-- add offset value dynamically using the API -->
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ukaegbu Gray Nneji</a>.
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</html>
