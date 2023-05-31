@@ -66,7 +66,7 @@ class Geo {
   }
   getIP(ipDomain) {
     fetch(
-      `https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_xKWaomCkKIieL4m49RzOLCr5gy4Uz&ipAddress=${ipDomain}`
+      `https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_p2Els66LEUXagu8nosAc45aOOV3FR&ipAddress=${ipDomain}`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -142,4 +142,4 @@ class Geo {
 }
 
 const geographt = new Geo();
-console.log(geographt);
+// console.log(geographt);
